@@ -8,6 +8,9 @@ app.config(function($routeProvider) {
 	}).when("/photography", {
 		templateUrl : "templates/photography.html",
 		controller : "photography_controller"
+	}).when("/blog", {
+		templateUrl : "templates/blog.html",
+		controller : "blog_controller"
 	});
 });
 
@@ -17,4 +20,8 @@ app.controller("portfolio_controller",function($scope,$http){
 
 app.controller("photography_controller",function($scope){
    console.log("Reporting from photography controller") 
+});
+
+app.controller("blog_controller",function($scope){
+   console.log("Reporting from blog controller"); 
 });
