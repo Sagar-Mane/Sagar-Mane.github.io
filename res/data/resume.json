@@ -1,0 +1,102 @@
+{
+ 
+  "timeline": {
+      
+      
+    "APRIL 2017": [
+      {
+        "type": "Project",
+        "title": "Multi-Cloud Starbucks Drink Ordering portal based on CRUD REST API",
+        "desc": [
+          "Developed starbucks portal as PaaS deployed in Heroku PaaS.",
+          "Designed multi-tenant architecture such that each tenant acts as a seperate starbucks store.",
+          "Deployed kong API gateway on aws with 3 node cassandra cluster.",
+          "Implemented 3 node NOSQL database cluster for each backend store. (MongoDB, CouchDB, Cassandra)",
+          "Each backend was developed with unique technology stack. Store 1 was implemented using go and couchDB, store 2 using node and cassandra, store 3 using python and mongoDB.",
+          "Designed portal as a single page web app using Angular, HTML5 and css."
+        ],
+        "link": "http://bit.ly/m-cloud"
+      }
+    ],
+    "MARCH 2017": [
+      {
+        "type": "Project",
+        "title": "Multi-Tenant SaaS Application",
+        "desc": [
+          "Created a Multi-Tenant, Cloud Scale, Multi-AZ SaaS Application(UML Parser) in AWS.",
+          "Built Single Page Application for the Java Source Code to be submitted and graded to the UML parser SaaS application.",
+          "Designed Grader login that Pins all interactions with the Application to the respective Tenants.",
+          "Implemented feature toggle to provide tenant specific customization for grading the Java Code.",
+          "Application supports Data Multi-Tenancy by managing either Extension Columns or Tables in a single Relational Database using Amazon RDS."
+        ],
+        "link": "http://bit.ly/m-tenant"
+      }
+    ],
+    "NOVEMBER 2016": [
+      {
+        "type": "Project",
+        "title": "Botman- Slackbot Deployment Framework",
+        "desc": [
+          "Created a web based framework to help users create chat bots for slack integration.",
+          "We used Heroku cloud PaaS for deploying the bots to slack and CodeMirror for providing JS editor.",
+          "PassportJS was used for providing github login. Project came third in CMPE 272 class."
+        ],
+        "link": "http://bit.ly/Botman"
+      }
+    ],
+    "OCTOBER 2016": [
+      {
+        "type": "Project",
+        "title": "Airbnb Simulation with Auction",
+        "desc": [
+          "Created an Airbnb simulation where users can rent properties, host their properties, can bid for property etc.",
+          "User tracking and logging was done using Winston logger, Google analytics and JQuery event caching.",
+          "RabbitMQ was used as middleware along with Redis caching and connection pooling which improved overall performance by 20% (Tested for 10k concurrent users using JMeter)."
+        ],
+        "link": "http://bit.ly/airbnbsimulation"
+      }
+    ],
+    "SEPT 2016": [
+      {
+        "type": "Project",
+        "title": "2D Game using Design Patterns and following Agile Methodology",
+        "desc": [
+          "Designed 2D game ‘Programming Pokemon’ in greenfoot which teaches programming concepts to kids, with the implementation of the design patterns & developed it with Agile methodology.",
+          "Hosting the game on AWS with Docker hub."
+        ],
+        "link": "http://bit.ly/2dGame"
+      }
+    ],
+    "JUNE 2015": [
+      {
+        "type": "Project",
+        "title": "Graduated from University of Pune",
+        "desc": [
+          "Earned my Bachelor of Engineering degree in Computer Engineering.",
+          "Achieved First Class"
+        ],
+        "link": ""
+      }
+    ],
+    "FEB 2015": [
+      {
+        "type": "Project",
+        "title": "Wireless LAN Monitoring System",
+        "desc": [
+          "The primary purpose of the software was to monitor and control LAN network from Android based mobile phone irrespective of the location.",
+          "It was used to provide details about the computers in the network to the admin on their mobile phone, so that they can view and monitor all the computers in the network."
+        ]
+      }      
+    ],
+    "JAN 2015": [
+      {
+        "type": "Publication",
+        "title": "Android Based Mobile Application for Wireless LAN Monitoring System",
+        "desc": [
+          "Published in International Journal of Engineering Research and Technology (IJERT) Vol. 4 - Issue 01"
+        ],
+        "link": "http://bit.ly/wlanmonitoring"
+      }
+    ]
+  }
+}

@@ -16,6 +16,10 @@ app.config(function($routeProvider) {
 
 app.controller("portfolio_controller",function($scope,$http){
 	console.log("Reporting from portfolio controller");
+    $http.get('res/data/resume.json').success(function(data) {
+        $scope.resume_data = data;
+        $scope.previous = 0;
+    });
 });
 
 app.controller("photography_controller",function($scope){
