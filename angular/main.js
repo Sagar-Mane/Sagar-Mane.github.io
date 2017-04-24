@@ -2,7 +2,7 @@ var app = angular.module('myapp', ['ngRoute']);
 app.config(function($routeProvider) {
 	console.log("in route provider");
 	$routeProvider
-	.when("/portfolio", {
+    .when("/portfolio", {
 		templateUrl : "templates/portfolio.html",
 		controller : "portfolio_controller"
 	}).when("/photography", {
